@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "stylesheet" href = "css/bootstrap.min.css">
+    <link rel = "stylesheet" href="css/bootstrap-grid.min.css">
+    <link src = https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css>
+    <script src = "js/bootstrap.min.js"></script>
+    <script src = "js/bootstrap.bundle.min.js"></script>
+</head>
+    
+<body>
+    <div class="container">
+        <div class="input-wrapper">
+            <form id = "converter">
+                <div class="rows">
+                     <!--image-->
+                     <div class="image">
+                        <image src = "img1.jpg"></image>
+                    </div>
+                    <h2 class = "title">Currency Converter</h2>
+                    <!--name-->
+                    <div class="amount">
+                        <label for = "amount"class="label">Amount:</label>
+                        <input type ="number" placeholder = "Enter your value"class = "text-color">
+                    </div>
+                    <!--button-->
+                    <div class = "row">
+                        <div class="col">
+                            <div class="from">
+                                
+                                <select name = "from"class = "dropdown">
+                                    <!-- <img class= "flag"src="https://flagsapi.com/US/flat/64.png"> -->
+                                </select>
+                            </div>
+                        </div>
+    
+                        <div class="col">
+                            <div class="to">
+                                <!-- <img class = "flag"src="https://flagsapi.com/IN/flat/64.png" />  -->
+                                <!-- <i class="fa-solid fa-arrow-right-arrow-left"></i>   -->
+                                <select name = "to"class = "dropdown"></select>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!--opnion-->
+                    <button class="btn">Convert</button>
+                    
+                    <!--show convert value-->
+                    <div class="result">1 USD = 83.15 INR</div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src = "codes.js"></script>
+<script src = "app.js"></script>
+
+</html>
